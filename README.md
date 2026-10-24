@@ -15,16 +15,3 @@ libraries or Google OR-Tools.
 
 **Status:** toolbox components and CVRP modeling are available; the complete
 CVRP optimization workflow is still under development.
-
-## Run
-
-Requires **JDK 21 or newer**, with `java` and `javac` on PATH. In PowerShell:
-
-```powershell
-.\scripts\test.ps1
-.\scripts\run.ps1
-```
-
-The application lists its available commands. Production code is in
-`src/main/java`, tests are in `src/test/java`, and generated build output goes
-into the Git-ignored `out/` folder.
